@@ -7,15 +7,16 @@ Email: jeremias10j@gmail.com
 Github: j-abreu
 """
 
+import tensorflow as tf
+import tensorflow.keras as K
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+import os
+
+#%%
 def main():
-    import tensorflow as tf
-    import tensorflow.keras as K
-    import numpy as np
-    import matplotlib.pyplot as plt
-    import pandas as pd
-    import os
-    
-    #%%
+
     try:
         os.chdir(r'C:\Users\joyce\Desktop\Jeremie\github\tensorflow-keras-examples')
         print('changing work directory...')
