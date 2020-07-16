@@ -158,6 +158,7 @@ def main():
         print('test_loss: {}\ttest_acc: {}'.format(test_loss_history[-1],
                                                    test_acc_history[-1]))
         print('\n')
+        
     #%% plot learning curves
     fig, axes = plt.subplots(2, sharex=True, figsize=(12, 8))
     fig.suptitle('Training Metrics')
